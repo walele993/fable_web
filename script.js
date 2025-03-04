@@ -2,22 +2,22 @@ const themes = {
     unicorn: {
         name: "Unicorn",
         description: "A bright and clean theme for a fresh coding experience.",
-        image: "./screenshots/Unicorn.png"
+        image: "screenshots/Unicorn.png"
     },
     gelato: {
         name: "Gelato",
         description: "Soft, creamy hues for a soothing and delightful workspace.",
-        image: "./screenshots/Gelato.png"
+        image: "screenshots/Gelato.png"
     },
     grimoire: {
         name: "Grimoire",
         description: "Dark, muted tones with smooth contrast for elegance and focus.",
-        image: "./screenshots/Grimoire.png"
+        image: "screenshots/Grimoire.png"
     },
     liquorice: {
         name: "Liquorice",
         description: "Deep black with vibrant colors to make your code pop.",
-        image: "./screenshots/Liquorice.png"
+        image: "screenshots/Liquorice.png"
     }
 };
 
