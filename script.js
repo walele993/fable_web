@@ -2,22 +2,22 @@ const themes = {
     unicorn: {
         name: "Unicorn",
         description: "A bright and clean theme for a fresh coding experience.",
-        <img src="/screenshots/Unicorn.png" alt="Theme Preview">
+        <img src="./fable_web/screenshots/Unicorn.png" alt="Theme Preview">
     },
     gelato: {
         name: "Gelato",
         description: "Soft, creamy hues for a soothing and delightful workspace.",
-        <img src="/screenshots/Gelato.png" alt="Theme Preview">
+        <img src="./fable_web/screenshots/Gelato.png" alt="Theme Preview">
     },
     grimoire: {
         name: "Grimoire",
         description: "Dark, muted tones with smooth contrast for elegance and focus.",
-        <img src="/screenshots/Grimoire.png" alt="Theme Preview">
+        <img src="./fable_web/screenshots/Grimoire.png" alt="Theme Preview">
     },
     liquorice: {
         name: "Liquorice",
         description: "Deep black with vibrant colors to make your code pop.",
-        <img src="/screenshots/Liquorice.png" alt="Theme Preview">
+        <img src="./fable_web/screenshots/Liquorice.png" alt="Theme Preview">
     }
 };
 
