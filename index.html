@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fable</title>
+    <!-- Import del font Google Playfair Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fable</h1>
+    <p class="tagline">Elegant. Vibrant. Magic.</p>
+
+    <div class="preview-wrapper">
+        <img id="themeImage" src="screenshots/unicorn.png" alt="Theme Preview">
+    </div>
+
+    <div class="theme-selector">
+        <button class="theme-btn" data-theme="unicorn" style="background: #ffffff" onclick="changeTheme('unicorn', this)"></button>
+        <button class="theme-btn" data-theme="gelato" style="background: #f5e3d7" onclick="changeTheme('gelato', this)"></button>
+        <button class="theme-btn" data-theme="grimoire" style="background: #d3d3d3" onclick="changeTheme('grimoire', this)"></button>
+        <button class="theme-btn" data-theme="liquorice" style="background: #121212" onclick="changeTheme('liquorice', this)"></button>
+    </div>
+
+    <div id="themeInfo" class="theme-info hidden">
+        <h2 id="themeName"></h2>
+        <p id="themeDescription"></p>
+    </div>
+
+    <a href="https://marketplace.visualstudio.com/items?itemName=walele993.fable-code-theme#:~:text=Fable%20Themes%20is%20a%20curated%20collection%20of%20custom,distinct%20color%20palettes%20to%20enhance%20readability%20and%20aesthetics." class="install-btn">Install Now</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
