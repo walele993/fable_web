@@ -10,7 +10,7 @@ h1 {
     font-family: 'Playfair Display', serif; /* Il font aggiornato */
     font-weight: 900; /* Peso 900 */
     font-size: 7rem;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
 }
 
 .tagline {
