@@ -107,6 +107,7 @@ h1 {
 
 .social-link {
     color: #5c492c;
+    margin-left: 0.2rem;
     transition: color 0.3s ease;
     text-decoration: none;
 }
