@@ -97,3 +97,42 @@ h1 {
     background-color: #D6409F;
     color: #ffffff;
 }
+
+.footer {
+    padding: 2rem 0;
+    margin-top: 4rem;
+    background-color: rgba(92, 73, 44, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.social-link {
+    color: #5c492c;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: #D6409F;
+}
+
+.marketplace-link {
+    color: #5c492c;
+    text-decoration: none;
+    border-bottom: 2px solid #D6409F;
+    transition: all 0.3s ease;
+}
+
+.marketplace-link:hover {
+    color: #D6409F;
+    border-bottom-color: transparent;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.fa-heart {
+    margin: 0 0.3rem;
+}
