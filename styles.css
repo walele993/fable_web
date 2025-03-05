@@ -100,14 +100,13 @@ h1 {
 
 .footer {
     padding: 2rem 0;
-    margin-top: 4rem;
+    margin-top: 1rem;
     background-color: transparent;
     backdrop-filter: none;
 }
 
 .social-link {
     color: #5c492c;
-    margin: 0 0.5rem;
     transition: color 0.3s ease;
     text-decoration: none;
 }
